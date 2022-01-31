@@ -1,0 +1,39 @@
+@mixin sliderClass() {
+    & .slick-track{
+        display: flex;
+    }
+    & .slick-dots{
+        position: absolute;
+        top: calc(50% - 75px);
+        right: 50px;
+        list-style: none;
+    }
+    & .slick-dots li button{
+        font-size: 0;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        border: 2px solid #000;
+        background: #000;
+        margin: 7px 0;
+    }
+    & .slick-dots li.slick-active button{
+        background-color: #f1f1f1;
+    }
+}
+
+@mixin socialStyle() {
+            display: flex;
+                    list-style: none;
+                    &__item{
+                        width: 30px;
+                        text-align: center;
+                        font-size: 26px;
+                        border-radius: 5px;
+                        background: white;
+                        margin: 0 10px;
+                    }
+                    &__link{
+                        color: #000;
+                    }
+}
