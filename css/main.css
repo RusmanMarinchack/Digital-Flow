@@ -593,7 +593,8 @@
 }
 
 .our-advantages {
-  background: url("../img/Наши-преимущества.png") no-repeat;
+  background: -webkit-image-set(url("../img/Наши-преимущества.png") no-repeat, url("../img/Наши-преимущества.webp") type("image/webp"));
+  background: image-set(url("../img/Наши-преимущества.png") no-repeat, url("../img/Наши-преимущества.webp") type("image/webp"));
   background-size: cover;
   background-position: center;
   padding: 300px 0 100px 0;
