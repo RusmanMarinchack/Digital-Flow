@@ -299,6 +299,7 @@
   height: 100%;
   width: 50%;
   background: url("/img/about-company-item.png") no-repeat;
+  background: url("/img/about-company-item.webp") no-repeat;
   background-size: cover;
 }
 
