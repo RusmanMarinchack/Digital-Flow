@@ -226,8 +226,10 @@
         &__block-img{
             height: 100%;
             width: 50%;
-            background: url('/img/about-company-item.png') no-repeat;
-            background: url('/img/about-company-item.webp') no-repeat;
+            background: image-set(
+                url('/img/about-company-item.png'),
+                url('/img/about-company-item.webp') type("image.webp")
+            );
             background-size: cover;
             @media screen and (max-width: 1100px) {
                 width: 100%;

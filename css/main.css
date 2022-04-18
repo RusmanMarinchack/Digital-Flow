@@ -298,8 +298,8 @@
 .about-company .ac-slide__block-img {
   height: 100%;
   width: 50%;
-  background: url("/img/about-company-item.png") no-repeat;
-  background: url("/img/about-company-item.webp") no-repeat;
+  background: -webkit-image-set(url("/img/about-company-item.png"), url("/img/about-company-item.webp") type("image.webp"));
+  background: image-set(url("/img/about-company-item.png"), url("/img/about-company-item.webp") type("image.webp"));
   background-size: cover;
 }
 
