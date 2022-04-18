@@ -227,7 +227,8 @@
             height: 100%;
             width: 50%;
             background-image: url('../img/about-company-item.png');
-               background-image: url('../img/about-company-item.webp');
+            background-image: image-set(
+                url('../img/about-company-item.webp') 1x);
                
             background-size: cover;
             @media screen and (max-width: 1100px) {
@@ -409,7 +410,8 @@
 .our-advantages{
        
        background-image: url('../img/Наши-преимущества.png');
-       background-image: url('../img/Наши-преимущества.webp');
+       background-image: image-set(
+                url('../img/Наши-преимущества.webp') 1x);
     background-size: cover;
     background-position: center;
     padding: 300px 0 100px 0;
